@@ -1,0 +1,226 @@
+/* @import './icons.css'; */
+.el-menu--popup {
+	min-width: 160px;
+}
+.header {
+	height: 40px;
+	/* background: #2290ff;		 */
+    width: 100%;
+    vertical-align: middle;
+}
+.header .modules {
+    line-height: 38px;
+}
+.menubar-item.el-menu-item,
+.menubar-item .el-submenu__title {
+	font-size: 13px;
+}
+/* .logo{
+	width: 30px;
+	height: 24px;
+	background: url(../assets/logo.png);
+	float:left;
+	margin: 7px 8px;
+
+} */
+.title{
+	width:auto;
+	height: 18px;
+	opacity: 1;
+	font-size: 18px;
+	font-family: Microsoft YaHei;
+	color: rgba(255,255,255,1);
+	line-height: 39px;
+	float:left;
+	font-weight: bold;
+}
+.btn-user {
+	margin-top: 3px;
+}
+.avue-main {
+	position: absolute;
+	width: 100%;
+	top: 40px;
+	/* top: 80px; */
+	bottom: 5px;
+}
+.avue-main .main-content,
+.main-content .el-card__body {
+	height: 100%;
+}
+
+.main-content .el-card__header {
+	padding: 5px;
+	text-align: left;
+}
+.main-content > .el-card__header {
+	font-size: 13px;
+}
+.main-content .el-card__body {
+	padding: 0;
+}
+.main-content .basic-container {
+	padding: 5px;
+}
+.el-menu--horizontal .el-menu .el-menu-item, .el-menu--horizontal .el-menu {
+	vertical-align: middle;
+}
+.menu-wrapper .el-menu--horizontal>.el-menu-item,
+.menu-wrapper .el-menu--horizontal>.el-submenu .el-submenu__title {
+	height: 40px;
+	line-height: 40px;
+}
+
+.map-right-panel,
+.map-left-panel {	
+	z-index: 1888;	
+	height: auto;
+	width: auto;
+	position: absolute;
+	margin: 5px;
+	background: transparent;
+}
+.map-right-panel {	
+	right: 0px;
+}
+.map-left-panel .tools-box {
+	background: transparent;
+}
+
+.map-left-panel .el-form,
+.tool-panel .el-form,
+.map-left-panel .avue-group__title,
+.tool-panel .avue-group__title {
+	font-size: 12px;
+}
+.tool-panel .el-dialog__wrapper {
+	left: auto;
+	right:10px;
+	font-size: 12px;
+}
+.tool-panel.el-dialog,
+.tool-panel .el-dialog {
+	position: relative;
+	right: -1370px;
+	top: 0px;
+	margin: 0px;
+}
+.tool-panel .el-dialog__title .el-button {
+	padding: 0px;
+	margin-left: 5px;
+}
+.tool-panel .el-scrollbar__wrap {
+	overflow-x: hidden;
+}
+.tool-panel .el-dialog__header {
+	padding: 5px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.tool-panel .el-dialog__title {
+	line-height: 20px;
+}
+.tool-panel .el-dialog__headerbtn {
+	top: 5px;
+}
+.tool-panel .el-dialog__body {
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.tool-panel .el-scrollbar__view {
+	padding-right: 10px;
+}
+
+.tool-panel .el-form-item__label,
+.tool-panel .el-checkbox__label {
+	font-size: 12px;
+}
+.map-left-panel .avue-group__header,
+.tool-panel .avue-group__header {
+	margin-bottom: 5px;
+	height: 30px;
+	line-height: 30px;
+}
+.map-left-panel .el-collapse-item__arrow,
+.tool-panel .el-collapse-item__arrow {
+	margin-top: -10px;
+}
+.map-left-panel .el-form-item,
+.tool-panel .el-form-item {
+	margin-bottom: 5px;
+}
+.map-left-panel .el-from .el-button,
+.tool-panel .el-form .el-button {
+	margin-bottom: 5px;
+}
+
+.tool-panel.el-dialog__wrapper {
+	position:initial;
+}
+
+.el-dialog__title {
+	vertical-align: middle;
+}
+._dialog-title_tools {
+	float: right;
+	margin-right:35px;
+	margin-top: -5px;
+	clear: both;
+	vertical-align: middle;
+}
+
+.list-table .avue-crud__pagination {
+	display: none;
+}
+
+.basic-container .el-card__body {
+	padding: 10px 5px;
+}
+
+.legend {
+	list-style: none;
+}
+.legend li{
+	min-width: 35px;
+	display: inline-block;
+}
+.legend li div{
+	height: 32px;
+	min-width: 35px;
+	line-height: 32px;
+	text-align: center;
+	padding: 0px 2px;
+}
+.legend li .label {	
+	height: 22px;
+	line-height: 22px;
+	padding: 0 2px;
+}
+.w100{
+	width:100px;
+}
+.w60{
+	width:60px;
+}
+.w50{
+	width: 50px;
+}
+.w150{
+	width: 150px;
+}
+.pos-fixed {
+	position: fixed;
+	z-index: 2200;
+	bottom: 50px;
+	left: 0;
+	right: 0;
+	text-align:center;
+}
+
+.el-form-item__content .el-radio-group {
+	text-align: left;
+	padding-top: 8px;
+}
+.el-form-item__content .el-radio-group .el-radio {
+	padding-bottom: 5px;
+}
